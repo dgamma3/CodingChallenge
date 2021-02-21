@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeProducts", "MergeProducts\MergeProducts.csproj", "{155B6DD4-56EC-4B83-BC88-CA5F33673A9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{B8637182-A1A8-4BA3-BAF4-8FC05EE6C445}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{155B6DD4-56EC-4B83-BC88-CA5F33673A9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{155B6DD4-56EC-4B83-BC88-CA5F33673A9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{155B6DD4-56EC-4B83-BC88-CA5F33673A9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{155B6DD4-56EC-4B83-BC88-CA5F33673A9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8637182-A1A8-4BA3-BAF4-8FC05EE6C445}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8637182-A1A8-4BA3-BAF4-8FC05EE6C445}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8637182-A1A8-4BA3-BAF4-8FC05EE6C445}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8637182-A1A8-4BA3-BAF4-8FC05EE6C445}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
