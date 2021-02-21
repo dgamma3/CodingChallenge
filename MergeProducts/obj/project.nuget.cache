@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "L7owUjmmMVYhxnJXUsHY6UzmMdbcf1uvFGc8j876nn9C2njmIMp/Ud2RcvRZaWXpOGyb7srvY9DUzq2MT6BXwg==",
+  "success": true,
+  "projectFilePath": "C:\\Dev\\Personal\\MergeProducts\\MergeProducts\\MergeProducts.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\daniel.brazil\\.nuget\\packages\\csvhelper\\24.0.1\\csvhelper.24.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

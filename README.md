@@ -1,7 +1,10 @@
 built using .net 5.
 
-if you would like to build the project yourself please ensure you install SDK 5.0.100
-here https://dotnet.microsoft.com/download/dotnet/5.0.
 
-If you would like to run the projects, I have made 3 self contained (they have .net 5 runtime include), see MergeProducts\bin\Debug\net5.0. you will see linux-x64, win-x64 and win-x86 folders.
+if you have .net 5 sdk installed, you build and open the .sln file in MergeProducts folder, if so input files are located in MergeProducts/bin/Debug/net5.0/input, and output files are located in input files are located in MergeProducts/bin/Debug/net5.0/output.
+
+tests can be run by opening the .sln and running the tests.
+
+if you dont have .net 5 sdk installed, you can run the self contained executables in MergeProducts/bin/Debug/net5.0/linux-x64/, MergeProducts/bin/Debug/net5.0/win-64/, MergeProducts/bin/Debug/net5.0/linux-x86/, you will also find the input and output folders respectively. 
+
  

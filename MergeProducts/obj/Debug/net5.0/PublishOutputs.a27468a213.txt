@@ -1,0 +1,6 @@
+C:\Dev\Personal\MergeProducts\MergeProducts\bin\Debug\net5.0\publish\MergeProducts.exe
+C:\Dev\Personal\MergeProducts\MergeProducts\bin\Debug\net5.0\publish\MergeProducts.dll
+C:\Dev\Personal\MergeProducts\MergeProducts\bin\Debug\net5.0\publish\MergeProducts.deps.json
+C:\Dev\Personal\MergeProducts\MergeProducts\bin\Debug\net5.0\publish\MergeProducts.runtimeconfig.json
+C:\Dev\Personal\MergeProducts\MergeProducts\bin\Debug\net5.0\publish\MergeProducts.pdb
+C:\Dev\Personal\MergeProducts\MergeProducts\bin\Debug\net5.0\publish\CsvHelper.dll
