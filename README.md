@@ -1,7 +1,7 @@
 built using .net 5.
 
 
-if you have .net 5 sdk installed, you build and open the .sln file in MergeProducts folder, if so input files are located in MergeProducts/bin/Debug/net5.0/input, and output files are located in input files are located in MergeProducts/bin/Debug/net5.0/output.
+if you have .net 5 sdk installed, you build and open the .sln, input files are located in MergeProducts/bin/Debug/net5.0/input, and output files are located in input files are located in MergeProducts/bin/Debug/net5.0/output.
 
 tests can be run by opening the .sln and running the tests.
 
