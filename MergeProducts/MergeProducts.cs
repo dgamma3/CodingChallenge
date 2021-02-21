@@ -17,10 +17,10 @@ namespace MergeProducts
             var barcodesOnlyFromA = GetBarcodesOnlyFromA(sharedBarcodes, barcodesFromA);
             var barcodesOnlyFromB = GetBarcodesOnlyFromB(sharedBarcodes, barcodesFromB);
 
-            var mergedBarcodes =
+            var mergedProducts =
                 CreateMergedBarcodes(sharedBarcodes, barcodesOnlyFromA, barcodesOnlyFromB, catalogA, catalogB);
 
-            return mergedBarcodes;
+            return mergedProducts;
         }
         
         private static IEnumerable<Result> CreateMergedBarcodes(Barcodes[] sharedBarcodes, Barcodes[] barcodesOnlyFromA,
