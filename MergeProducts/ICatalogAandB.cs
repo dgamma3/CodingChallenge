@@ -1,15 +1,15 @@
 using System.Collections.Generic;
 
-namespace ClassLibrary4
+namespace MergeProducts
 {
     public interface ICatalogAandB
     {
-        public IEnumerable<ConsoleApp6.Catalog> GetCatalogA();
+        public IEnumerable<Catalog> GetCatalogA();
         
-        public IEnumerable<ConsoleApp6.Catalog> GetCatalogB();
+        public IEnumerable<Catalog> GetCatalogB();
         
-        public IEnumerable<ConsoleApp6.Barcodes> GetBarcodesA();
+        public IEnumerable<Barcodes> GetBarcodesA();
         
-        public IEnumerable<ConsoleApp6.Barcodes> GetBarcodesB();
+        public IEnumerable<Barcodes> GetBarcodesB();
     }
 }

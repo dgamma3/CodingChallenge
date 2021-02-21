@@ -1,31 +1,30 @@
 using System.Collections.Generic;
-using ClassLibrary4;
-using ConsoleApp6;
+using MergeProducts;
 
 namespace Tests
 {
     public class TestImport : ICatalogAandB
     {
 
-        private IEnumerable<Catalog> CatelogA { get; set; }
-        private IEnumerable<Catalog> CatelogB { get; set; }
+        private IEnumerable<Catalog> CatalogA { get; set; }
+        private IEnumerable<Catalog> CatalogB { get; set; }
         private IEnumerable<Barcodes> BarcodesA { get; set; }
         private IEnumerable<Barcodes> BarcodesB { get; set; }
-        public TestImport(IEnumerable<Catalog> catelogA, IEnumerable<Catalog> catelogB, IEnumerable<Barcodes> barcodesA, IEnumerable<Barcodes> barcodesB)
+        public TestImport(IEnumerable<Catalog> catalogA, IEnumerable<Catalog> catalogB, IEnumerable<Barcodes> barcodesA, IEnumerable<Barcodes> barcodesB)
         {
-            this.CatelogA = catelogA;
-            this.CatelogB = catelogB;
+            this.CatalogA = catalogA;
+            this.CatalogB = catalogB;
             this.BarcodesA =  barcodesA;
             this.BarcodesB = barcodesB;
         }
         public IEnumerable<Catalog> GetCatalogA()
         {
-            return CatelogA;
+            return this.CatalogA;
         }
 
         public IEnumerable<Catalog> GetCatalogB()
         {
-            return CatelogB;
+            return this.CatalogB;
         }
 
         public IEnumerable<Barcodes> GetBarcodesA()

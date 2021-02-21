@@ -1,4 +1,4 @@
-namespace ConsoleApp6
+namespace MergeProducts
 {
     public class Catalog
     {

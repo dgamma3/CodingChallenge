@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ahnE2hQ4/TFSWEFCZ9wLTT55Ao+29HYWEa29PXjiMo069jaWqQq6+IqJfqsqLZSO5nzSpA5/pDs/XUgdRkNZGw==",
+  "dgSpecHash": "d8ezMNSoLVjCtLleqIvD/+KIbySInpilheNcUeiX+x07S+ipZyF3unDfzTvsx5yLsUfL0fzHw9joJluzv9oHFQ==",
   "success": true,
-  "projectFilePath": "C:\\Dev\\Personal\\MergeProducts\\Tests\\Tests.csproj",
+  "projectFilePath": "C:\\Users\\daniel.brazil\\Downloads\\CodingChallenge\\Tests\\Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\daniel.brazil\\.nuget\\packages\\csvhelper\\24.0.1\\csvhelper.24.0.1.nupkg.sha512",
     "C:\\Users\\daniel.brazil\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",

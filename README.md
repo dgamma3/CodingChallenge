@@ -1,5 +1,9 @@
 built using .net 5.
 
+/MergeProducts/Program.cs main method is the entry point of the program.
+
+considered https://github.com/tosumitagrawal/codingskills/pull/4 when implementing.
+
 
 if you have .net 5 sdk installed, open the .sln to build and run tests. Input files are located in MergeProducts/bin/Debug/net5.0/input, and output files are located in MergeProducts/bin/Debug/net5.0/output.
 

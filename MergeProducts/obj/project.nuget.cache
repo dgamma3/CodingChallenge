@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L7owUjmmMVYhxnJXUsHY6UzmMdbcf1uvFGc8j876nn9C2njmIMp/Ud2RcvRZaWXpOGyb7srvY9DUzq2MT6BXwg==",
+  "dgSpecHash": "BdIV2ep9d0CXzaE93bWhXV7FhFPVAZBSzedi2YLjE+m4BzwBbFqG4Z/yDAZyY6wGAlqVq862wAU6CtBEhJLz/w==",
   "success": true,
-  "projectFilePath": "C:\\Dev\\Personal\\MergeProducts\\MergeProducts\\MergeProducts.csproj",
+  "projectFilePath": "C:\\Users\\daniel.brazil\\Downloads\\CodingChallenge\\MergeProducts\\MergeProducts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\daniel.brazil\\.nuget\\packages\\csvhelper\\24.0.1\\csvhelper.24.0.1.nupkg.sha512"
   ],

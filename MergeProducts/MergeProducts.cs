@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using ClassLibrary4;
-using ConsoleApp6;
 
 namespace MergeProducts
 {
@@ -41,41 +39,40 @@ namespace MergeProducts
             return transformedSharedBarcodes;
         }
 
-        private static HashSet<Result> TransformBarcodes(Barcodes[] barcodesToTransform, Catalog[] catelog,
+        private static HashSet<Result> TransformBarcodes(Barcodes[] barcodesToTransform, Catalog[] catalog,
             string sourceCompany)
         {
             return barcodesToTransform.Select(barcode => new Result()
             {
                 SKU = barcode.SKU,
-                Description = GetProductDescriptionGivenSku(barcode, catelog),
+                Description = GetProductDescriptionGivenSku(barcode.SKU, catalog),
                 Source = sourceCompany
-            }).ToHashSet(new ComparerOfTwoResults());
+            }).ToHashSet(new ComparerTwoResults());
         }
 
-        private static string GetProductDescriptionGivenSku(Barcodes barcode, Catalog[] Catelog)
+        private static string GetProductDescriptionGivenSku(string sku, Catalog[] catalog)
         {
-            return Catelog.First(x => string.Equals(x.SKU, barcode.SKU)).Description;
+            return catalog.First(x => string.Equals(x.SKU, sku)).Description;
         }
-
 
         public static Barcodes[] GetBarcodesOnlyFromB(Barcodes[] sharedBarcodes, Barcodes[] barcodesFromB)
         {
-            return barcodesFromB.Except(sharedBarcodes, new ComparerOfTwoProducts()).ToArray();
+            return barcodesFromB.Except(sharedBarcodes, new ComparerTwoBarcodes()).ToArray();
         }
 
         private static Barcodes[] GetSharedBarcodes(Barcodes[] barcodesFromB, Barcodes[] barcodesFromA)
         {
-            return barcodesFromA.Intersect(barcodesFromB, new ComparerOfTwoProducts()).ToArray();
+            return barcodesFromA.Intersect(barcodesFromB, new ComparerTwoBarcodes()).ToArray();
         }
 
         public static Barcodes[] GetBarcodesOnlyFromA(Barcodes[] sharedBarcodes, Barcodes[] barcodesFromA)
         {
-            return barcodesFromA.Except(sharedBarcodes, new ComparerOfTwoProducts()).ToArray();
+            return barcodesFromA.Except(sharedBarcodes, new ComparerTwoBarcodes()).ToArray();
         }
     }
 
 
-    class ComparerOfTwoProducts : IEqualityComparer<Barcodes>
+    class ComparerTwoBarcodes : IEqualityComparer<Barcodes>
     {
         public bool Equals(Barcodes x, Barcodes y)
         {
@@ -93,7 +90,7 @@ namespace MergeProducts
         }
     }
 
-    class ComparerOfTwoResults : IEqualityComparer<Result>
+    class ComparerTwoResults : IEqualityComparer<Result>
     {
         public bool Equals(Result x, Result y)
         {

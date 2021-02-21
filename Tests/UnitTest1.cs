@@ -1,5 +1,5 @@
 using System.Linq;
-using ConsoleApp6;
+using MergeProducts;
 using NUnit.Framework;
 
 namespace Tests
